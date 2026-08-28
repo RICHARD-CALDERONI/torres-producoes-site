@@ -1,0 +1,15 @@
+{
+  "name": "torres-producoes-site",
+  "version": "1.0.0",
+  "description": "Site institucional Torres Produções Culturais",
+  "scripts": {
+    "optimize": "node scripts/optimize-images.js index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "sharp": "^0.35.4"
+  }
+}
