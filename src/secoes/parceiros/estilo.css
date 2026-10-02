@@ -1,0 +1,9 @@
+/* PARCEIROS */
+.parceiros { padding-top: 0; }
+.parceiros__lista { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 2px solid var(--tinta); }
+.parceiro { padding: 1.6rem 1.6rem 0 0; }
+.parceiro + .parceiro { padding-left: 1.6rem; border-left: 1px solid var(--linha); }
+.parceiro h3 { font-size: 1.6rem; margin-bottom: .6rem; }
+.parceiro h3 a { text-decoration-color: var(--turquesa); text-decoration-thickness: 3px; text-underline-offset: 5px; }
+.parceiro p { color: var(--tinta-suave); }
+@media (max-width: 760px) { .parceiros__lista { grid-template-columns: 1fr; } .parceiro + .parceiro { padding-left: 0; border-left: 0; border-top: 1px solid var(--linha); } }

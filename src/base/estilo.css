@@ -1,0 +1,112 @@
+/* ==========================================================
+   BASE: tokens de design, reset e tipografia.
+   Para trocar a identidade visual, altere apenas o bloco :root.
+   ========================================================== */
+:root {
+  /* Cores */
+  --papel: #F8F0E1;          /* fundo: papel de cartaz */
+  --papel-claro: #FFFBF4;    /* superfícies */
+  --tinta: #1E1A16;          /* texto principal */
+  --tinta-suave: #5A5047;    /* texto secundário */
+  --vermelho: #C8282E;       /* cortina */
+  --vermelho-escuro: #8E1A20;
+  --amarelo: #F5B82E;        /* picadeiro */
+  --turquesa: #1AA6B4;       /* ícones do logo */
+  --verde: #3E8E5A;          /* meio ambiente */
+  --linha: rgba(30, 26, 22, .16);
+
+  /* Tipografia */
+  --fonte-titulo: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --fonte-texto: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --t-0: .8125rem;
+  --t-1: 1rem;
+  --t-2: 1.1875rem;
+  --t-3: clamp(1.4rem, 1.1rem + 1.2vw, 1.9rem);
+  --t-4: clamp(2rem, 1.4rem + 2.6vw, 3.2rem);
+  --t-5: clamp(2.6rem, 1.5rem + 5vw, 5.6rem);
+
+  /* Espaço e forma */
+  --largura: 1180px;
+  --respiro: clamp(1.25rem, 4vw, 2.5rem);
+  --secao: clamp(4rem, 9vw, 7.5rem);
+  --raio: 6px;
+  --altura-topo: 72px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--altura-topo) + 12px); }
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--fonte-texto);
+  font-size: var(--t-1);
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--turquesa); outline-offset: 3px; border-radius: 2px; }
+
+h1, h2, h3, h4 {
+  font-family: var(--fonte-titulo);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -.01em;
+  margin: 0;
+  font-variation-settings: "wdth" 88;
+  text-wrap: balance;
+}
+p { margin: 0 0 1em; max-width: 68ch; }
+
+.recipiente { width: min(100% - 2 * var(--respiro), var(--largura)); margin-inline: auto; }
+.secao { padding-block: var(--secao); }
+.secao__titulo { font-size: var(--t-4); margin-bottom: .5em; max-width: 18ch; }
+.secao__intro { font-size: var(--t-2); color: var(--tinta-suave); max-width: 56ch; }
+
+.visualmente-oculto {
+  position: absolute !important; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* Botões */
+.botao {
+  display: inline-flex; align-items: center; gap: .6em;
+  padding: .85em 1.4em;
+  border: 2px solid var(--tinta);
+  border-radius: 999px;
+  background: var(--tinta); color: var(--papel-claro);
+  font-weight: 600; text-decoration: none; cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.botao:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--amarelo); }
+.botao--vazado { background: transparent; color: var(--tinta); }
+.botao--vermelho { background: var(--vermelho); border-color: var(--vermelho); color: #fff; }
+.botao--vermelho:hover { box-shadow: 4px 4px 0 var(--tinta); }
+.botao svg { width: 1.2em; height: 1.2em; flex: none; }
+
+/* Etiquetas usadas em cards e páginas de projeto */
+.etiqueta {
+  display: inline-flex; align-items: center; gap: .45em;
+  font-size: var(--t-0); font-weight: 600; line-height: 1;
+  padding: .45em .75em; border-radius: 999px;
+  background: var(--papel); border: 1px solid var(--linha);
+}
+.etiqueta--parceiro { background: var(--tinta); color: var(--papel-claro); border-color: var(--tinta); }
+.ponto { width: .6em; height: .6em; border-radius: 50%; background: currentColor; flex: none; }
+.cor-vermelho { color: var(--vermelho); }
+.cor-amarelo { color: #C88A05; }
+.cor-turquesa { color: var(--turquesa); }
+.cor-verde { color: var(--verde); }
+
+/* Área reservada para foto que ainda vai chegar */
+.foto-reservada {
+  display: grid; place-items: center; text-align: center;
+  background: repeating-linear-gradient(135deg, var(--papel) 0 18px, #EFE3CC 18px 36px);
+  color: var(--tinta-suave); font-size: var(--t-0); font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+}

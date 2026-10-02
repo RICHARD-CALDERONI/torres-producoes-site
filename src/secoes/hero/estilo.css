@@ -1,0 +1,55 @@
+/* ==========================================================
+   HERO: palco com sanefa, cortinas que abrem e colagem de fotos.
+   ========================================================== */
+.palco { position: relative; overflow: hidden; isolation: isolate; padding: clamp(5rem, 11vw, 8rem) 0 clamp(4rem, 8vw, 6rem); }
+
+/* Sanefa: faixa superior com franja amarela */
+.palco__sanefa {
+  position: absolute; inset: 0 0 auto 0; height: 46px; z-index: 3;
+  background:
+    radial-gradient(circle at 50% 0, var(--vermelho) 0 22px, transparent 23px) 0 18px / 46px 46px repeat-x,
+    linear-gradient(var(--vermelho-escuro), var(--vermelho)) 0 0 / 100% 22px no-repeat;
+  filter: drop-shadow(0 4px 0 var(--amarelo));
+}
+
+/* Cortinas de veludo */
+.palco__cortina {
+  position: absolute; top: 0; bottom: 0; width: 50.5%; z-index: 2;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.25), transparent 25%, transparent 75%, rgba(0,0,0,.3)),
+    repeating-linear-gradient(90deg, #A61F25 0 14px, var(--vermelho) 14px 30px, #B5232A 30px 40px, var(--vermelho-escuro) 40px 54px);
+  animation: cortina-abrir 1.6s cubic-bezier(.7, 0, .25, 1) .35s forwards;
+}
+.palco__cortina--esq { left: 0; transform-origin: left center; }
+.palco__cortina--dir { right: 0; transform-origin: right center; }
+@keyframes cortina-abrir { to { transform: scaleX(.07); } }
+@media (max-width: 700px) { .palco__cortina { animation-name: cortina-abrir-celular; } }
+@keyframes cortina-abrir-celular { to { transform: scaleX(.035); } }
+@media (prefers-reduced-motion: reduce) { .palco__cortina { animation: none; transform: scaleX(.07); } }
+
+.palco__cena { position: relative; z-index: 1; display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+.palco__local { font-weight: 600; color: var(--vermelho); margin-bottom: 1.2rem; }
+.palco__titulo { font-size: var(--t-5); font-variation-settings: "wdth" 78; max-width: 11ch; }
+.palco__descricao { font-size: var(--t-2); color: var(--tinta-suave); margin-top: 1.5rem; max-width: 42ch; }
+.palco__acoes { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+
+/* Colagem: fotos coladas como lambe-lambe */
+.palco__colagem { position: relative; aspect-ratio: 1 / 1; }
+.palco__foto { position: absolute; margin: 0; background: var(--papel-claro); padding: 8px; box-shadow: 0 10px 30px rgba(30,26,22,.18); }
+.palco__foto img { width: 100%; height: 100%; object-fit: cover; }
+.palco__foto::before {
+  content: ""; position: absolute; top: -12px; left: 50%; width: 84px; height: 24px;
+  transform: translateX(-50%) rotate(-3deg);
+  background: rgba(245, 184, 46, .75);
+}
+.palco__foto--1 { width: 60%; aspect-ratio: 4/5; left: 0; top: 6%; transform: rotate(-4deg); z-index: 2; }
+.palco__foto--2 { width: 58%; aspect-ratio: 4/3; right: 0; top: 0; transform: rotate(5deg); }
+.palco__foto--3 { width: 50%; aspect-ratio: 1; right: 4%; bottom: 0; transform: rotate(-2deg); z-index: 3; }
+
+/* Chão do palco */
+.palco__chao { position: absolute; inset: auto 0 0 0; height: 14px; background: repeating-linear-gradient(90deg, #8A5A2B 0 60px, #9C6935 60px 120px); opacity: .6; }
+
+@media (max-width: 860px) {
+  .palco__cena { grid-template-columns: 1fr; padding-inline: 1rem; }
+  .palco__colagem { max-width: 460px; width: 100%; margin-inline: auto; }
+}

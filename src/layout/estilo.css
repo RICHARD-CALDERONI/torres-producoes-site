@@ -1,0 +1,65 @@
+/* ==========================================================
+   LAYOUT: topo, menu, rodapé e botão flutuante.
+   ========================================================== */
+.pular { position: absolute; left: -999px; top: 0; z-index: 100; background: var(--tinta); color: #fff; padding: .6em 1em; }
+.pular:focus { left: 1rem; top: 1rem; }
+
+.topo {
+  position: sticky; top: 0; z-index: 50;
+  background: color-mix(in srgb, var(--papel) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s ease;
+}
+.topo.is-rolado { border-bottom-color: var(--linha); }
+.topo__barra { display: flex; align-items: center; justify-content: space-between; height: var(--altura-topo); gap: 1rem; }
+.topo__logo img { height: 46px; width: auto; }
+.topo__nav { display: flex; align-items: center; gap: 1.6rem; }
+.topo__nav ul { display: flex; gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
+.topo__nav ul a { text-decoration: none; font-weight: 500; font-size: .95rem; padding-block: .3em; background: linear-gradient(var(--vermelho), var(--vermelho)) 0 100% / 0 2px no-repeat; transition: background-size .25s ease; }
+.topo__nav ul a:hover { background-size: 100% 2px; }
+.topo__cta { padding: .6em 1.1em; font-size: .9rem; }
+
+.topo__menu-botao { display: none; background: none; border: 0; padding: .6rem; cursor: pointer; }
+.topo__hamburguer, .topo__hamburguer::before, .topo__hamburguer::after { display: block; width: 24px; height: 2px; background: var(--tinta); position: relative; transition: transform .25s ease; }
+.topo__hamburguer::before, .topo__hamburguer::after { content: ""; position: absolute; left: 0; }
+.topo__hamburguer::before { top: -7px; }
+.topo__hamburguer::after { top: 7px; }
+[aria-expanded="true"] .topo__hamburguer { background: transparent; }
+[aria-expanded="true"] .topo__hamburguer::before { transform: translateY(7px) rotate(45deg); }
+[aria-expanded="true"] .topo__hamburguer::after { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 900px) {
+  .topo__menu-botao { display: block; }
+  .topo__nav {
+    position: fixed; inset: var(--altura-topo) 0 auto 0;
+    flex-direction: column; align-items: flex-start; gap: 1.2rem;
+    padding: 1.5rem var(--respiro) 2rem;
+    background: var(--papel); border-bottom: 1px solid var(--linha);
+    transform: translateY(-120%); visibility: hidden;
+    transition: transform .3s ease, visibility .3s;
+  }
+  .topo__nav.is-aberto { transform: none; visibility: visible; }
+  .topo__nav ul { flex-direction: column; gap: .8rem; }
+  .topo__nav ul a { font-family: var(--fonte-titulo); font-size: 1.6rem; font-weight: 700; }
+}
+
+.rodape { background: var(--tinta); color: #EDE4D3; padding-top: 4rem; margin-top: 0; }
+.rodape a { color: inherit; text-underline-offset: 3px; }
+.rodape__grade { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2.5rem; }
+.rodape__logo { height: 60px; width: auto; filter: invert(1) hue-rotate(180deg); }
+.rodape__slogan { margin-top: 1rem; font-family: var(--fonte-titulo); font-size: 1.4rem; font-weight: 700; line-height: 1.15; max-width: 16ch; }
+.rodape__titulo { font-family: var(--fonte-texto); font-size: var(--t-0); font-weight: 600; color: var(--amarelo); margin-bottom: .8rem; }
+.rodape__base { border-top: 1px solid rgba(255,255,255,.12); margin-top: 3rem; padding-block: 1.5rem; font-size: var(--t-0); opacity: .7; }
+@media (max-width: 760px) { .rodape__grade { grid-template-columns: 1fr; } }
+
+.whats-flutuante {
+  position: fixed; right: 1.1rem; bottom: 1.1rem; z-index: 40;
+  width: 56px; height: 56px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #25D366; color: #fff;
+  box-shadow: 3px 3px 0 var(--tinta);
+  transition: transform .2s ease;
+}
+.whats-flutuante:hover { transform: scale(1.06); }
+.whats-flutuante svg { width: 30px; height: 30px; }

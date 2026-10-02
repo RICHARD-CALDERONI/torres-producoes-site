@@ -1,0 +1,33 @@
+{
+  "_ajuda": "Gerado automaticamente por scripts/instagram.js. Os itens com exemplo=true são de demonstração e serão substituídos.",
+  "atualizado_em": null,
+  "noticias": [
+    {
+      "id": "exemplo-1",
+      "data": "2026-09-20",
+      "titulo": "Zeca e Juca na SIPAT",
+      "texto": "Intervenções pelos setores com humor e música sobre segurança no trabalho.",
+      "imagem": "img/projetos/zeca-mairipa-e-juca-juquery/1.webp",
+      "link": "https://www.instagram.com/torresproducoesculturais/",
+      "exemplo": true
+    },
+    {
+      "id": "exemplo-2",
+      "data": "2026-09-12",
+      "titulo": "Gertrudes e Matilde em visita a uma ILPI",
+      "texto": "Uma tarde de memórias, música e afeto com o público da terceira idade.",
+      "imagem": "img/projetos/as-memorias-de-gertrudes-e-matilde/2.webp",
+      "link": "https://www.instagram.com/torresproducoesculturais/",
+      "exemplo": true
+    },
+    {
+      "id": "exemplo-3",
+      "data": "2026-09-03",
+      "titulo": "O Tesouro Perdido nas escolas",
+      "texto": "Educação financeira com palhaçaria para turmas do ensino fundamental.",
+      "imagem": "img/projetos/o-tesouro-perdido/2.webp",
+      "link": "https://www.instagram.com/torresproducoesculturais/",
+      "exemplo": true
+    }
+  ]
+}

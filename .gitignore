@@ -1,4 +1,4 @@
-index.original.html
 node_modules/
-Thumbs.db
+dist/
+.env
 .DS_Store

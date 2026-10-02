@@ -1,0 +1,618 @@
+{
+  "_ajuda": "Fonte única dos projetos. Fotos: public/img/projetos/<slug>/ (qualquer .webp/.jpg/.png, em ordem de nome). 'videos' recebe IDs do YouTube. '_pendente' lista o que ainda precisa de dados reais e não aparece no site.",
+  "projetos": [
+    {
+      "slug": "tld-sob-demanda",
+      "tipo": "espetaculo",
+      "titulo": "Teatro Lúdico Didático sob demanda",
+      "eixo": "sob-demanda",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Espetáculos e intervenções criados a partir do briefing da sua organização, para SIPAT, segurança, saúde mental e temas personalizados.",
+      "contexto": [
+        "Através do TLD, Teatro Lúdico Didático, desenvolvemos espetáculos teatrais e intervenções artísticas itinerantes personalizados, construídos a partir das necessidades e dos objetivos da empresa.",
+        "A linguagem teatral, as técnicas cênicas e os elementos lúdicos funcionam como ferramentas de comunicação, sensibilização e aprendizagem. Cada projeto é construído de forma colaborativa e submetido à aprovação da empresa contratante."
+      ],
+      "temas": [
+        "Segurança no trabalho",
+        "SIPAT",
+        "Uso de EPIs",
+        "Normas regulamentadoras",
+        "Prevenção de acidentes",
+        "Acidente de trajeto",
+        "Saúde mental e qualidade de vida",
+        "Diversidade e inclusão",
+        "Meio ambiente e sustentabilidade",
+        "Comunicação interna"
+      ],
+      "ficha": {
+        "publico": "Colaboradores de empresas e instituições",
+        "faixa": "Adulto",
+        "duracao": "De 15 a 50 minutos, conforme o formato",
+        "formato": "Palco, auditório ou itinerante pelos setores",
+        "elenco": "2 a 5 artistas",
+        "tecnica": "Adaptável ao espaço; som e microfone quando necessário"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "zeca-mairipa-e-juca-juquery",
+      "tipo": "espetaculo",
+      "titulo": "Zeca Mairipa e Juca Juquery",
+      "eixo": "seguranca",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Intervenções teatrais itinerantes nos setores e auditórios da empresa, com humor e música para tratar segurança, meio ambiente e saúde mental.",
+      "contexto": [
+        "Zeca e Juca realizam intervenções teatrais itinerantes nos setores da empresa e em auditórios, usando humor, música e linguagem lúdica como ferramentas de sensibilização e aprendizagem.",
+        "É uma abordagem educativa e descontraída para trabalhar temas corporativos como segurança no trabalho, meio ambiente, saúde mental e outros assuntos definidos conforme a necessidade da empresa."
+      ],
+      "temas": [
+        "Segurança no trabalho",
+        "Meio ambiente",
+        "Saúde mental",
+        "Temas personalizados"
+      ],
+      "ficha": {
+        "publico": "Colaboradores e equipes operacionais",
+        "faixa": "Adulto",
+        "duracao": "15 a 30 minutos por intervenção",
+        "formato": "Itinerante pelos setores ou auditório",
+        "elenco": "2 atores com música ao vivo",
+        "tecnica": "Sem estrutura fixa; som opcional em auditório"
+      },
+      "videos": [
+        "bWSCgo6WTKQ"
+      ],
+      "_pendente": [
+        "ficha"
+      ]
+    },
+    {
+      "slug": "as-memorias-de-gertrudes-e-matilde",
+      "tipo": "espetaculo",
+      "titulo": "As Memórias de Gertrudes e Matilde",
+      "eixo": "seguranca",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Teatro sensível e interativo para colaboradores, ILPIs e projetos sociais, sobre memórias, vínculos afetivos e trajetórias de vida.",
+      "contexto": [
+        "Teatro e intervenções cênicas voltadas a colaboradores, comunidades e instituições, com foco no público da terceira idade e em projetos sociais.",
+        "O espetáculo promove experiências sensíveis e interativas em ILPIs e ações corporativas, abordando memórias, vínculos afetivos e a valorização da trajetória de vida."
+      ],
+      "temas": [
+        "Memória",
+        "Vínculos afetivos",
+        "Envelhecimento",
+        "Valorização da trajetória de vida"
+      ],
+      "ficha": {
+        "publico": "Terceira idade, ILPIs, colaboradores e comunidades",
+        "faixa": "Livre",
+        "duracao": "40 minutos",
+        "formato": "Salão, auditório ou espaço de convivência",
+        "elenco": "2 atrizes",
+        "tecnica": "Som e microfone; espaço plano"
+      },
+      "videos": [
+        "GWfStDQ803w"
+      ],
+      "_pendente": [
+        "ficha"
+      ]
+    },
+    {
+      "slug": "verbo-mulher",
+      "tipo": "espetaculo",
+      "titulo": "Verbo Mulher",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Espetáculo solo sobre protagonismo feminino, respeito, equidade e enfrentamento da violência contra a mulher.",
+      "contexto": [
+        "Espetáculo teatral solo que aborda questões sociais do universo feminino, promovendo reflexão e sensibilização.",
+        "Em cena, temas como protagonismo feminino, respeito, equidade, diversidade e enfrentamento da violência contra a mulher ganham corpo e voz."
+      ],
+      "temas": [
+        "Protagonismo feminino",
+        "Equidade",
+        "Diversidade",
+        "Enfrentamento da violência contra a mulher"
+      ],
+      "ficha": {
+        "publico": "Jovens, adultos e colaboradores",
+        "faixa": "14 anos",
+        "duracao": "50 minutos",
+        "formato": "Palco ou auditório",
+        "elenco": "1 atriz",
+        "tecnica": "Iluminação cênica básica e som"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "o-tesouro-perdido",
+      "tipo": "espetaculo",
+      "titulo": "O Tesouro Perdido",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Circo-teatro com uma dupla de palhaças que trabalha educação financeira com crianças: consumo consciente, organização e escolhas.",
+      "contexto": [
+        "Circo-teatro com uma dupla de palhaças que usa humor e linguagem lúdica para trabalhar educação financeira com crianças.",
+        "De forma divertida, a história aborda consumo consciente, organização, planejamento e tomada de decisões."
+      ],
+      "temas": [
+        "Educação financeira",
+        "Consumo consciente",
+        "Planejamento",
+        "Tomada de decisões"
+      ],
+      "ficha": {
+        "publico": "Crianças e escolas",
+        "faixa": "A partir de 5 anos",
+        "duracao": "45 minutos",
+        "formato": "Palco, pátio ou quadra",
+        "elenco": "2 palhaças",
+        "tecnica": "Som; espaço mínimo de 4 x 4 m"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "o-cofrinho-magico-do-mestre-dindim",
+      "tipo": "espetaculo",
+      "titulo": "O Cofrinho Mágico do Mestre Dindim",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Teatro lúdico infantojuvenil sobre planejamento, economia e consumo consciente, com narrativa divertida e educativa.",
+      "contexto": [
+        "Teatro lúdico infantojuvenil que usa uma narrativa divertida e educativa para abordar planejamento, economia e consumo consciente.",
+        "O espetáculo estimula desde cedo a reflexão sobre escolhas e organização financeira."
+      ],
+      "temas": [
+        "Planejamento",
+        "Economia",
+        "Consumo consciente",
+        "Organização financeira"
+      ],
+      "ficha": {
+        "publico": "Crianças, adolescentes e escolas",
+        "faixa": "A partir de 6 anos",
+        "duracao": "45 minutos",
+        "formato": "Palco ou auditório",
+        "elenco": "2 atores",
+        "tecnica": "Som e iluminação básica"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "elas-riem",
+      "tipo": "espetaculo",
+      "titulo": "Elas Riem – Um Ato de Coragem",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Circo-teatro para toda a família: humor, acrobacia e linguagem lúdica sobre coragem, autoestima e protagonismo feminino.",
+      "contexto": [
+        "Circo-teatro para toda a família que usa humor, acrobacia e linguagem lúdica para abordar coragem, força e protagonismo feminino.",
+        "O espetáculo promove reflexão sobre autoestima e autonomia."
+      ],
+      "temas": [
+        "Coragem",
+        "Protagonismo feminino",
+        "Autoestima",
+        "Autonomia"
+      ],
+      "ficha": {
+        "publico": "Famílias, escolas e comunidades",
+        "faixa": "Livre",
+        "duracao": "50 minutos",
+        "formato": "Palco, praça ou lona",
+        "elenco": "2 palhaças",
+        "tecnica": "Som; altura livre para acrobacias"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "broto-de-circo",
+      "tipo": "espetaculo",
+      "titulo": "Broto de Circo",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Para a primeira infância: poesia visual, música ao vivo e linguagem corporal, sem falas. Uma experiência sensorial para bebês.",
+      "contexto": [
+        "Espetáculo criado especialmente para a primeira infância, com poesia visual, música ao vivo e linguagem corporal.",
+        "Sem uso de falas, a obra explora movimentos, imagens e sonoridades suaves, proporcionando uma experiência sensorial e poética para bebês e crianças pequenas."
+      ],
+      "temas": [
+        "Primeira infância",
+        "Experiência sensorial",
+        "Música ao vivo",
+        "Linguagem corporal"
+      ],
+      "ficha": {
+        "publico": "Bebês, crianças pequenas e seus responsáveis",
+        "faixa": "0 a 5 anos",
+        "duracao": "35 minutos",
+        "formato": "Sala, auditório ou espaço com tapete",
+        "elenco": "3 artistas",
+        "tecnica": "Espaço acolhedor com público próximo à cena"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "a-incrivel-historia-de-leytor",
+      "tipo": "espetaculo",
+      "titulo": "A Incrível História de Leytor",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Contação de histórias que incentiva a leitura e reflete sobre o equilíbrio entre o mundo digital e o universo dos livros.",
+      "contexto": [
+        "Teatro em formato de contação de histórias que usa narrativa lúdica para incentivar o hábito da leitura.",
+        "A história reflete sobre a relação entre livros, imaginação e tecnologia, promovendo o equilíbrio entre o mundo digital e o universo da leitura."
+      ],
+      "temas": [
+        "Hábito da leitura",
+        "Imaginação",
+        "Tecnologia",
+        "Equilíbrio digital"
+      ],
+      "ficha": {
+        "publico": "Crianças, escolas e bibliotecas",
+        "faixa": "A partir de 4 anos",
+        "duracao": "40 minutos",
+        "formato": "Palco, sala de leitura ou biblioteca",
+        "elenco": "1 ator com música",
+        "tecnica": "Som"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "gibilo-e-seu-trombone",
+      "tipo": "espetaculo",
+      "titulo": "Gibiló e seu Trombone",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Trapalhadas, música e improvisação: o público entra em cena e vira companheiro de picadeiro do palhaço Gibiló.",
+      "contexto": [
+        "Entre trapalhadas, música, brincadeiras e muita improvisação, Gibiló convida as crianças e o público a entrarem na cena.",
+        "Aos poucos, a plateia se transforma em companheira de picadeiro do palhaço."
+      ],
+      "temas": [
+        "Palhaçaria",
+        "Música",
+        "Improvisação",
+        "Interação com o público"
+      ],
+      "ficha": {
+        "publico": "Crianças e famílias",
+        "faixa": "Livre",
+        "duracao": "40 minutos",
+        "formato": "Palco, pátio, quadra ou praça",
+        "elenco": "1 palhaço",
+        "tecnica": "Som"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "as-aventuras-atrapalhadas-de-gibilo-e-benedito",
+      "tipo": "espetaculo",
+      "titulo": "As Aventuras Atrapalhadas de Gibiló e Benedito",
+      "eixo": "educacao",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Uma audição atrapalhada que resgata clássicas esquetes da arte circense brasileira, com risadas para todas as idades.",
+      "contexto": [
+        "Abandonado por seus antigos companheiros, Gibiló, o “Rei do Poropopó”, busca um novo parceiro para reviver os tempos de sucesso do Circo Pirilampo.",
+        "Ao encontrar Benedito, um palhaço fanfarrão, começa uma audição divertida e atrapalhada que resgata clássicas esquetes da arte circense brasileira, garantindo risadas e emoção para todas as idades."
+      ],
+      "temas": [
+        "Palhaçaria",
+        "Esquetes circenses clássicas",
+        "Cultura circense brasileira"
+      ],
+      "ficha": {
+        "publico": "Crianças, famílias e comunidades",
+        "faixa": "Livre",
+        "duracao": "50 minutos",
+        "formato": "Palco, lona, quadra ou praça",
+        "elenco": "2 palhaços",
+        "tecnica": "Som; espaço mínimo de 5 x 4 m"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "o-segredo-das-sementes",
+      "tipo": "espetaculo",
+      "titulo": "O Segredo das Sementes",
+      "eixo": "meio-ambiente",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Circo-teatro infantil com as palhaças Federica e Granola sobre preservação da natureza e cuidado com o planeta.",
+      "contexto": [
+        "Circo-teatro infantil que usa humor, música e linguagem lúdica para abordar meio ambiente e sustentabilidade.",
+        "Conduzido pelas palhaças Federica e Granola, o espetáculo promove reflexões sobre preservação da natureza, cuidado com o planeta e responsabilidade coletiva."
+      ],
+      "temas": [
+        "Meio ambiente",
+        "Sustentabilidade",
+        "Preservação da natureza",
+        "Responsabilidade coletiva"
+      ],
+      "ficha": {
+        "publico": "Crianças, escolas e comunidades",
+        "faixa": "A partir de 4 anos",
+        "duracao": "45 minutos",
+        "formato": "Palco, pátio ou área externa",
+        "elenco": "2 palhaças",
+        "tecnica": "Som"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "entre-rios-e-raizes",
+      "tipo": "espetaculo",
+      "titulo": "Entre Rios e Raízes",
+      "eixo": "meio-ambiente",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Contação de histórias que une narrativa, música e cultura popular, com foco em educação ambiental e saberes tradicionais.",
+      "contexto": [
+        "Contação de histórias que une narrativa, música e cultura popular, fortalecendo a conexão entre pessoas, território e natureza.",
+        "O projeto tem foco em educação ambiental e na valorização dos saberes tradicionais. Aprovado via Lei Rouanet, está em processo de captação de recursos."
+      ],
+      "temas": [
+        "Educação ambiental",
+        "Saberes tradicionais",
+        "Cultura popular",
+        "Território"
+      ],
+      "ficha": {
+        "publico": "Crianças, escolas e comunidades",
+        "faixa": "Livre",
+        "duracao": "45 minutos",
+        "formato": "Área externa, praça ou sala",
+        "elenco": "2 artistas com música ao vivo",
+        "tecnica": "Som; sombra em apresentações ao ar livre"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "vem-brincar-de-circo",
+      "tipo": "espetaculo",
+      "titulo": "Vem Brincar de Circo",
+      "eixo": "musica",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Vivência circense prática: malabares, pernas de pau, corda bamba, prato chinês, palhaçaria e expressão corporal.",
+      "contexto": [
+        "Experiência artística, recreativa e educativa que aproxima o público do universo circense por meio de vivências práticas e interativas.",
+        "As atividades incluem malabares, pernas de pau, corda bamba, prato chinês, palhaçaria e expressão corporal."
+      ],
+      "temas": [
+        "Vivência circense",
+        "Malabares",
+        "Pernas de pau",
+        "Expressão corporal"
+      ],
+      "ficha": {
+        "publico": "Crianças, jovens, famílias e colaboradores",
+        "faixa": "A partir de 5 anos",
+        "duracao": "2 horas",
+        "formato": "Pátio, quadra, praça ou área externa",
+        "elenco": "3 a 4 arte-educadores",
+        "tecnica": "Espaço amplo e plano"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "trupe-trupe",
+      "tipo": "espetaculo",
+      "titulo": "Trupe Trupé",
+      "eixo": "musica",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Companhia musical de shows para crianças e famílias, com brincadeiras e elementos da cultura popular.",
+      "contexto": [
+        "Companhia musical de shows e espetáculos para crianças e famílias.",
+        "A trupe usa música, brincadeiras e elementos da cultura popular como linguagem artística, promovendo experiências lúdicas voltadas ao universo da infância."
+      ],
+      "temas": [
+        "Música para a infância",
+        "Cultura popular",
+        "Brincadeiras"
+      ],
+      "ficha": {
+        "publico": "Crianças e famílias",
+        "faixa": "Livre",
+        "duracao": "60 minutos",
+        "formato": "Palco, praça ou evento",
+        "elenco": "6 a 8 músicos",
+        "tecnica": "Sonorização de show"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "jamaika-e-big-banda",
+      "tipo": "espetaculo",
+      "titulo": "Jamaika e Big Banda",
+      "eixo": "musica",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Show para colaboradores e comunidades entre samba, MPB, reggae e soul, em conexão com a cultura negra e as raízes brasileiras.",
+      "contexto": [
+        "Show musical com repertório diverso voltado a colaboradores e comunidades.",
+        "O repertório transita por samba, MPB, reggae e soul, em uma experiência artística conectada à cultura negra, à diversidade e à valorização das raízes culturais brasileiras."
+      ],
+      "temas": [
+        "Cultura negra",
+        "Diversidade",
+        "Música brasileira"
+      ],
+      "ficha": {
+        "publico": "Colaboradores, comunidades e eventos",
+        "faixa": "Livre",
+        "duracao": "90 minutos",
+        "formato": "Palco ou evento",
+        "elenco": "5 a 7 músicos",
+        "tecnica": "Sonorização e iluminação de show"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "o-subnormal",
+      "tipo": "espetaculo",
+      "titulo": "O Subnormal, uma história de baixa visão",
+      "eixo": "acessibilidade",
+      "status": "repertorio",
+      "parceiro": null,
+      "sinopse": "Comédia autobiográfica do ator Cleber Tolini sobre viver com baixa visão, para sensibilizar sobre inclusão e acessibilidade.",
+      "contexto": [
+        "Espetáculo autobiográfico de comédia que apresenta a trajetória do ator Cleber Tolini.",
+        "A peça traz ao palco experiências, desafios e reflexões a partir da vivência do ator com baixa visão, promovendo sensibilização sobre inclusão, acessibilidade e diversidade."
+      ],
+      "temas": [
+        "Inclusão",
+        "Acessibilidade",
+        "Diversidade",
+        "Baixa visão"
+      ],
+      "ficha": {
+        "publico": "Jovens, adultos e colaboradores",
+        "faixa": "12 anos",
+        "duracao": "60 minutos",
+        "formato": "Palco ou auditório",
+        "elenco": "1 ator",
+        "tecnica": "Iluminação cênica básica e som"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "audiovisual-icarus-filmes",
+      "tipo": "servico",
+      "titulo": "Audiovisual",
+      "eixo": "audiovisual",
+      "status": "repertorio",
+      "parceiro": "Ícarus Filmes",
+      "sinopse": "Gravação de eventos e espetáculos, vídeos institucionais, documentários e conteúdo digital, em parceria com a Ícarus Filmes.",
+      "contexto": [
+        "Produção audiovisual profissional em parceria com a Ícarus Filmes, unindo arte, técnica e narrativa para registrar, comunicar e transformar.",
+        "Do evento ao documentário, criamos conteúdos que conectam pessoas e fortalecem a identidade da sua empresa: gravação de eventos e espetáculos, vídeos institucionais e de treinamento, protocolos corporativos, documentários e curtas-metragens, além de conteúdo para redes sociais, campanhas educativas e comunicação interna."
+      ],
+      "temas": [
+        "Gravação de eventos e espetáculos",
+        "Vídeos institucionais e de treinamento",
+        "Documentários e curtas",
+        "Conteúdo para redes sociais"
+      ],
+      "ficha": {
+        "publico": "Empresas, instituições e projetos culturais",
+        "faixa": "—",
+        "duracao": "Conforme o projeto",
+        "formato": "Captação, roteiro e edição",
+        "elenco": "Equipe Ícarus Filmes",
+        "tecnica": "Definida no briefing"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    },
+    {
+      "slug": "acessibilidade-acesse-projetos-inclusivos",
+      "tipo": "servico",
+      "titulo": "Acessibilidade e inclusão",
+      "eixo": "acessibilidade",
+      "status": "repertorio",
+      "parceiro": "Acesse Projetos Inclusivos",
+      "sinopse": "Capacitações, consultorias, palestras e projetos culturais acessíveis, em parceria com a Acesse Projetos Inclusivos.",
+      "contexto": [
+        "Projetos de inclusão desenvolvidos em parceria com a Acesse Projetos Inclusivos, com atuação em capacitações, consultorias, palestras e formação de profissionais.",
+        "A parceria também desenvolve projetos culturais e corporativos acessíveis, ações de educação ambiental inclusiva e atividades de integração entre crianças e jovens com e sem deficiência ou neurodivergentes."
+      ],
+      "temas": [
+        "Capacitações e consultorias",
+        "Palestras e formação",
+        "Projetos acessíveis",
+        "Educação ambiental inclusiva"
+      ],
+      "ficha": {
+        "publico": "Empresas, escolas e instituições",
+        "faixa": "—",
+        "duracao": "Conforme o projeto",
+        "formato": "Presencial",
+        "elenco": "Equipe Acesse Projetos Inclusivos",
+        "tecnica": "Definida no briefing"
+      },
+      "videos": [],
+      "_pendente": [
+        "ficha",
+        "videos"
+      ]
+    }
+  ]
+}

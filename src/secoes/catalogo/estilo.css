@@ -1,0 +1,37 @@
+/* CATÁLOGO */
+.catalogo { background: var(--papel-claro); border-block: 1px solid var(--linha); }
+.catalogo__cabeca { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: end; margin-bottom: 2rem; }
+.catalogo__filtros { display: flex; flex-wrap: wrap; gap: .5rem; }
+.filtro {
+  border: 1.5px solid var(--tinta); background: transparent; border-radius: 999px;
+  padding: .55em 1.05em; font-size: .9rem; font-weight: 500; cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+.filtro:hover { background: var(--papel); }
+.filtro[aria-pressed="true"] { background: var(--tinta); color: var(--papel-claro); }
+.catalogo__contagem { color: var(--tinta-suave); font-size: var(--t-0); margin: 1.2rem 0 1.5rem; }
+.catalogo__grade { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 1.6rem; }
+
+/* Cartaz: o card de projeto */
+.cartaz { --cor: var(--vermelho); }
+.cartaz--amarelo { --cor: var(--amarelo); }
+.cartaz--turquesa { --cor: var(--turquesa); }
+.cartaz--verde { --cor: var(--verde); }
+.cartaz[hidden] { display: none; }
+.cartaz__link {
+  display: flex; flex-direction: column; height: 100%;
+  text-decoration: none; background: var(--papel-claro);
+  border: 2px solid var(--tinta); border-radius: var(--raio); overflow: hidden;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+.cartaz__link:hover, .cartaz__link:focus-visible { transform: translate(-4px, -4px); box-shadow: 8px 8px 0 var(--cor); }
+.cartaz__imagem { aspect-ratio: 4 / 3; border-bottom: 2px solid var(--tinta); overflow: hidden; }
+.cartaz__imagem img, .cartaz__imagem .foto-reservada { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.cartaz__link:hover .cartaz__imagem img { transform: scale(1.04); }
+.cartaz__corpo { display: flex; flex-direction: column; gap: .8rem; padding: 1.2rem 1.25rem 1.4rem; flex: 1; }
+.cartaz__etiquetas { display: flex; flex-wrap: wrap; gap: .4rem; }
+.cartaz__eixo { color: var(--tinta); }
+.cartaz__titulo { font-size: 1.5rem; }
+.cartaz__sinopse { color: var(--tinta-suave); font-size: .95rem; margin: 0; flex: 1; }
+.cartaz__mais { font-weight: 600; font-size: .9rem; text-decoration: underline; text-decoration-color: var(--cor); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+@media (max-width: 760px) { .catalogo__cabeca { grid-template-columns: 1fr; } }

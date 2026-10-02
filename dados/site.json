@@ -1,0 +1,69 @@
+{
+  "nome": "Torres Produções Culturais",
+  "slogan": "Arte que comunica. Cultura que transforma.",
+  "descricao": "Experiências culturais voltadas à sensibilização, educação e desenvolvimento humano em ambientes corporativos, comunidades e territórios.",
+  "url_base": "https://richard-calderoni.github.io/torres-producoes-site/novo",
+  "contato": {
+    "telefone": "(11) 96053-9418",
+    "whatsapp": "5511960539418",
+    "email": "contato@torresproducoes.com",
+    "instagram": "torresproducoesculturais",
+    "cidade": "Mairiporã / SP",
+    "cnpj": "30.907.827/0001-44",
+    "desde": "2018"
+  },
+  "formulario": {
+    "_ajuda": "Deixe endpoint vazio para o formulário abrir o e-mail do visitante (mailto). Para receber direto na caixa de entrada, cole aqui um endpoint compatível com Formspree ou, no HostGator, o caminho de um script PHP.",
+    "endpoint": "",
+    "destino": "contato@torresproducoes.com"
+  },
+  "instagram": {
+    "hashtag": "torresnoticias",
+    "maximo_posts": 6
+  },
+  "secoes_home": ["hero", "letreiro", "sobre", "catalogo", "processo", "leis", "clientes", "parceiros", "noticias", "contato"],
+  "linguagens": ["Teatro", "Circo", "Música", "Audiovisual", "Educação e ações formativas", "Acessibilidade e inclusão"],
+  "atuacao": [
+    "Sensibilização de colaboradores e públicos diversos",
+    "Fortalecimento da cultura de segurança e prevenção",
+    "Apoio a programas de desenvolvimento humano e capacitação",
+    "Conexão com comunidades impactadas por operações produtivas",
+    "Experiências culturais que aproximam pessoas e fortalecem relações",
+    "Ambientes mais inclusivos e diversos"
+  ],
+  "eixos": [
+    { "id": "sob-demanda", "nome": "Teatro sob demanda", "cor": "vermelho" },
+    { "id": "seguranca", "nome": "Segurança e desenvolvimento", "cor": "turquesa" },
+    { "id": "educacao", "nome": "Educação, infância e sociedade", "cor": "amarelo" },
+    { "id": "meio-ambiente", "nome": "Meio ambiente e comunidades", "cor": "verde" },
+    { "id": "musica", "nome": "Música e cultura popular", "cor": "vermelho" },
+    { "id": "audiovisual", "nome": "Audiovisual", "cor": "turquesa" },
+    { "id": "acessibilidade", "nome": "Acessibilidade e inclusão", "cor": "amarelo" }
+  ],
+  "status": {
+    "repertorio": "Em repertório",
+    "captacao": "Em captação",
+    "realizado": "Realizado"
+  },
+  "leis": {
+    "texto": "Ajudamos sua empresa a investir em cultura com incentivo fiscal, da escolha do projeto à prestação de contas.",
+    "lista": ["Lei Rouanet", "ProAC", "ProMAC", "PNAB", "Editais municipais"]
+  },
+  "processo": {
+    "titulo": "Como criamos um espetáculo sob medida",
+    "texto": "No Teatro Lúdico Didático, cada ação nasce do objetivo da sua organização e passa pela aprovação da sua equipe antes de entrar em cena.",
+    "etapas": [
+      "Briefing e alinhamento com a organização",
+      "Criação da sinopse e do conceito da ação",
+      "Desenvolvimento do roteiro",
+      "Seleção de elenco e equipe artística",
+      "Ensaios e preparação",
+      "Montagem e apresentação"
+    ]
+  },
+  "parceiros": [
+    { "nome": "Ícarus Filmes", "texto": "Produção audiovisual: eventos, institucionais, documentários e curtas.", "projeto": "audiovisual-icarus-filmes" },
+    { "nome": "Acesse Projetos Inclusivos", "texto": "Capacitações, consultorias e projetos culturais acessíveis.", "projeto": "acessibilidade-acesse-projetos-inclusivos" },
+    { "nome": "Artistas e coletivos", "texto": "Elenco, músicos e técnicos convidados conforme a linguagem de cada projeto." }
+  ]
+}

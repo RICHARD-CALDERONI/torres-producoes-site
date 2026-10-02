@@ -1,0 +1,10 @@
+/* LEIS DE INCENTIVO */
+.leis__grade { display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center; }
+.leis__lista { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .7rem; }
+.leis__lista li {
+  font-family: var(--fonte-titulo); font-weight: 700; font-size: 1.35rem;
+  padding: .55em 1em; border: 2px solid var(--tinta); border-radius: 999px; background: var(--papel-claro);
+}
+.leis__lista li:nth-child(3n+1) { background: var(--amarelo); }
+.leis__lista li:nth-child(3n+2) { background: #CDEDEF; }
+@media (max-width: 760px) { .leis__grade { grid-template-columns: 1fr; } }

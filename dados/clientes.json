@@ -1,0 +1,11 @@
+{
+  "_ajuda": "Cada cliente aparece na faixa da home. Coloque o logo em public/img/clientes/ e informe o arquivo em 'logo'. Itens com 'exemplo: true' são reservas de espaço e somem quando houver clientes reais.",
+  "clientes": [
+    { "nome": "Cliente 1", "logo": "", "exemplo": true },
+    { "nome": "Cliente 2", "logo": "", "exemplo": true },
+    { "nome": "Cliente 3", "logo": "", "exemplo": true },
+    { "nome": "Cliente 4", "logo": "", "exemplo": true },
+    { "nome": "Cliente 5", "logo": "", "exemplo": true },
+    { "nome": "Cliente 6", "logo": "", "exemplo": true }
+  ]
+}
